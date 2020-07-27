@@ -1,0 +1,33 @@
+// Criando Condicionais de outra forma no javascript 
+
+<html>
+    <head>
+        <title>Criando Condicionais no javascript </title>
+        <h1 style="color:blueviolet ;">Olá </h1>
+
+    </head>
+    <body>
+        <script>
+            // Criando uma função "retornaSexo" no javascript
+            function retornaSexo(sexo) {
+                // Masculino = "M"
+                // Feminino = "F"
+                // Verificação a igualdade de uma mesma variável múltiplas vezes
+                switch(sexo){
+                    case 'M':
+                       return 'Masculino';
+                    case 'F':
+                       return 'Feminino';
+                    default:
+                       return 'Outros'
+                }
+            
+            }
+
+           var resultado = retornaSexo("F");
+           console.log(resultado);
+
+        </script>
+    </body>
+
+</html>
